@@ -75,3 +75,13 @@ void main() {
   //endregion
 
 }
+/**
+ * Summary 
+ * Map
+ *  - Data structure with key-value pairs
+ *  - Query of a specific value is done via the key
+ *  key    |   value
+ *  "key1" |    2
+ *  "key2" |    3
+ *  "key3" |    4 
+ */
