@@ -19,3 +19,12 @@ void main(){
   print(secondList);
 
 }
+/**
+ * Summary:
+ * - Used when you know how many times the loop should be repeated.
+ * - for loops have a counter / index
+ * - loop head consists of three parts:
+ *    - counter / index: int i = 0
+ *    - conditoon: i < 10
+ *    - change the counter: i++:
+ */
