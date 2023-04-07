@@ -34,15 +34,14 @@ class DataService {
    */
   Future<String> getData() async{
     
-    // final String dataFromCloud = await _getDataFromCloud(); //await here means that it will wait for the function to finish.
+    final String dataFromCloud = await _getDataFromCloud(); //await here means that it will wait for the function to finish.
     
-    // final String parsedata = await _parseDataFromCloud(dataFromCloud: dataFromCloud);
+    final String parsedData = await _parseDataFromCloud(dataFromCloud: dataFromCloud);
 
     //! alternative way to write await
-    final String parsedData = await _getDataFromCloud().then((dataFromCloud) async{
-      return await _parseDataFromCloud(dataFromCloud: dataFromCloud);
-      
-    });
+    // final String parsedData = await _getDataFromCloud().then((dataFromCloud) async{
+    //   return await _parseDataFromCloud(dataFromCloud: dataFromCloud);
+    // });
 
     return parsedData;
 
