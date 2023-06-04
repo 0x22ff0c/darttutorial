@@ -19,21 +19,21 @@ import 'dart:async';
 
 void main() {
 
-  Stream numberStream = NumberGenerator().getStream.asBroadcastStream();
+  // Stream numberStream = NumberGenerator().getStream.asBroadcastStream();
 
   //! broadcast -> can hundle multiple subsribers
 
-  StreamSubscription subscriber1 = numberStream.listen((event) {
-    print("Subscriber 1 output: " + event.toString());
-  },
+  // StreamSubscription subscriber1 = numberStream.listen((event) {
+  //   print("Subscriber 1 output: " + event.toString());
+  // },
   
-   onDone: (){
-    print("Timer finished");
-  });
+  //  onDone: (){
+  //   print("Timer finished");
+  // });
 
-  StreamSubscription subscriber2 = numberStream.listen((event) {
-    print("Subscriber 2 output: " + event.toString());
-  });
+  // StreamSubscription subscriber2 = numberStream.listen((event) {
+  //   print("Subscriber 2 output: " + event.toString());
+  // });
 
 }
 
