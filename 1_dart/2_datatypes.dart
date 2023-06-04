@@ -69,7 +69,7 @@ void main() {
   print('Constant int 1: $constInt');
 
   //can be used compared to dynamic, but it's not recommended in terms of code readability.
-  var variableOutput = 1; //if you want to assign a value to this variable again, you have to use the same data type.
+  // var variableOutput = 1; //if you want to assign a value to this variable again, you have to use the same data type.
 
 }
 
